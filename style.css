@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.id{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+
+}
+#sun{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 250, 54);
+    border-radius: 50px;
+    top: 40px;
+    left: -10px;
+    position: absolute;
+    animation: rehan 8s ease-in-out 1s ;
+
+}
+#cloud{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    animation: rehan0 8s ease-in-out 2s ;
+}
+#cloud1{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    animation: rehan1 8s ease-in-out 4s reverse;
+
+}
+#cloud2{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    animation: rehan2 8s linear 3s ;
+
+}
+@keyframes rehan {
+    from{
+        top: 40px;
+       left: -10px;
+    }
+    to{
+        left: 110%;
+        top: 40px;
+        opacity: o.8;
+        background-color:green;
+    }
+}
+@keyframes rehan0 {
+    from{
+        top: 20px;
+        left: 0px;
+    }
+    to{
+        left: 110%;
+        top: 40px;
+        opacity: o.8;
+        /* background-color:green; */
+    }
+}
+@keyframes rehan1 {
+    from{
+        top: 20px;
+        left: 500px;
+    }
+    to{
+        left: 110%;
+        top: 20px;
+        opacity: o.8;
+        /* background-color:green; */
+    }
+}
+@keyframes rehan2 {
+    from{
+        top: 20px;
+        right: 20px;
+    }
+    to{
+        right: 110%;
+        top: 20px;
+        opacity: o.8;
+        /* background-color:green; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
